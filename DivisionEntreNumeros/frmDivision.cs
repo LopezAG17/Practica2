@@ -124,7 +124,7 @@ namespace DivisionEntreNumeros
 
     private void txtV01_KeyPress(object sender, KeyPressEventArgs e)
     {
-      if (Char.IsLetter(e.KeyChar)) // Solo permitir numeros en el texto            
+      if (Char.IsLetter(e.KeyChar)) // Solo permitir numeros en el             
       {
         e.Handled = true;
         MessageBox.Show("Solo numeros");
